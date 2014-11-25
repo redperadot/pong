@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   
   spac.name                  = 'pong'
-  spec.version               = '0.3.0'
+  spec.version               = '1.0.0'
   spec.summary               = "Monitor network addresses."
   
   spec.author                = "Cody Hannafon"

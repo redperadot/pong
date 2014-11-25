@@ -1,1 +1,7 @@
 #!/usr/bin/env ruby
+['pong', 'optparse', 'io/console', 'colorize', 'net/ping', 'socket'].each { |_gem| require _gem }
+
+Scripter.clean_exit('~ May the command line live forever. ~'.center(`tput cols`.to_i))
+ARGV.each { |host| Pong.new(host) }
+Pong.splash
+Pong.monitor
