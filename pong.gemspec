@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   
-  spac.name                  = 'pong'
+  spec.name                  = 'pong'
   spec.version               = '1.0.0'
-  spec.summary               = "Monitor network addresses."
+  spec.summary               = "Monitor network addresses from the command line."
   
   spec.author                = "Cody Hannafon"
   spec.email                 = "redperadot@darkgem.net"
@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '2.1.4'
   spec.requirements          = ['net-ping', 'colorize']
   
-  spac.bindir                = 'bin'
-  spec.executables           = Dir['bin/*']
+  spec.bindir                = 'bin'
+  spec.executables           = 'pong'
   spec.files                 = Dir['lib/*.rb'] + Dir['bin/*']
   
   spec.post_install_message  = 'May the command line live forever.'
